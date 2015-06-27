@@ -1,1 +1,70 @@
+html {
+	margin: 0;
+	padding: 2% 6% 2% 6%;
+}
+
+.text {
+	color: #000000;
+	font-family: Tahoma, sans-serif;
+	font-size: 1.2em;
+	line-height: 160%;
+	padding: 0% 6% 3% 6%;
+}
+
+span {
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+	float: right;
+}
+
+a:link {
+	color: #0642A6;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0642A6;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	min-width: 600px;
+}
+
+.icon, img {
+	height: 96%;
+	width: 127px;
+}
+
+.footer {
+	font-family: Tahoma, sans-serif;
+	font-size: .9em;
+	padding: 8px 25px 8px 25px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.line {
+	width: 75%;
+	border-top: 1px solid #BBBBBC;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	padding-right: 5px;
+
 
